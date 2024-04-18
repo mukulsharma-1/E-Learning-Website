@@ -3,11 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doc</title>
+    <title>Eduland - Education Landing page</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap"
+    rel="stylesheet">
 </head>
-<body>
-    <h1>Body</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto earum ad nobis nesciunt nihil aut natus dolore nemo nostrum corrupti enim numquam eaque quidem, fuga asperiores! Ipsum quisquam hic obcaecati.</p>
-    <div id="navbar"></div>
+<body id="top">
+   <header class="header" data-header>
+     <div class="container">
+        <div class="overlay" data-overlay></div>
+        <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Eduland logo">
+        </a>
+        <button class="menu-open-btn" data-menu-open-btn>
+            <ico-icon name="menu-outline"></ico-icon>
+        </button>
+        <nav class="navbar" data-navbar>
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ico-icon name="close-outline"></ico-icon>
+          </button>
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Eduland logo">
+          </a>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+            <li><a href="#" class="navbar-link">About</a></li>
+            <li><a href="#" class="navbar-link">Service</a></li>
+            <li><a href="#" class="navbar-link">Blog</a></li>
+            <li><a href="#" class="navbar-link">Contact</a></li>
+            </ul>
+            <button class="btn btn-secondary">Get Started</button>
+        </nav>
+     </div>
+   </header>
+   <main>
+    <article>
+      <section class="hero">
+        <div class="container">
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" alt="A young lady sits, holding apen and a notebook">
+          </figure>
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Start your Future Education</h1>
+            <p class="section-text">
+              Credibly redefine distinctive total linkage vis-a-vis multifunction data. Phosphorescently impact
+              goal-oriented
+              strategic
+            </p>
+            <button class="btn btn-primary">Discover More</button>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" alt="Eduland students" class="about-img">
+            <img src="./assets/images/about-vector.svg" alt="Vector Line Art" class="vector-line">
+            <button class="play-btn">
+              <ico-icon name="play"></ico-icon>
+            </button>
+          </figure>
+          <div class="about-content">
+            <h2 class="h2 about-title">We Help to Create Possibility & Success in Your Career!</h2>
+            <p class="section-text">
+              Continually administrate process-centric human capital rather than bleeding-edge methodologies.
+              Distinctively supply
+              accurate methods of empowerment before.
+            </p>
+            <button class="btn btn-primary">Get Started Today</button>
+          </div>
+        </div>
+      </section>
+      <section class="departments">
+        <div class="container">
+          <img src="./assets/images/departmets-vector.svg" alt="Vector line art" class="vector-line">
+          <h2 class="h2 departments-title">We have most of Popular Departments</h2>
+          <ul class="department-list">
+            <li>
+              <div class="departments-card">
+                <a href="#" class="card-banner">
+                  <figure><img src="./assets/images/depertment-1.png" alt="Articial Intelligence"></figure>
+                </a>
+                <a href="#">
+                  <h3 class="h3 card-title">Artificial Intelligence</h3>
+                </a>
+                <p class="card-text">
+                  Assertively parallel task synergistic deliverables after high-quality.
+                </p>
+                <a href="#" class="card-link">
+                  <span>Learn More</span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="departments-card">
+                <a href="" class="card-banner">
+                  <figure>
+                    <img src="./assets/images/depertment-2.png" alt="Civil Engineering">
+                  </figure>
+                </a>
+                <a href="">
+                  <h3 class="h3 card-title">Civil Engineering</h3>
+                </a>
+                <p class="card-text">
+                  Assertively parallel task synergistic deliverables after high-quality.
+                </p>
+                <a href="#" class="card-link">
+                  <span>Learn More</span>
+                  <ico-icon name="arrow-forward"></ico-icon>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="departments-card">
+                <a href="#" class="card-banner">
+                  <figure>
+                    <img src="./assets/images/depertment-3.png" alt="Business Studies">
+                  </figure>
+                </a>
+                <a href="#">
+                  <h3 class="h3 card-title">Business Studies</h3>
+                </a>
+                <p class="card-text">
+                  Assertively parallel task synergistic deliverables after high-quality.
+                </p>
+                <a href="#" class="card-link">
+                  <span>Learn More</span>
+                  <ico-icon name="arrow-forward">
+                  </ico-icon>
+                </a>
+              </div>
+            </li>
+          </ul>
+          <button class="btn btn-primary">View All Departments</button>
+        </div>
+      </section>
+    </article>
+   </main>
 </body>
 </html>
